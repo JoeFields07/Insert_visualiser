@@ -10,7 +10,7 @@ This is aimed to provide visual context for tool geometry information often foun
 `main.py`: Contains all functionality for defining, visualising and interacting with the simulation.
 
 # Dependencies
-Uses Python 3.13.5  
+Uses Python 3.13.15  
 ```
 pip install numpy matplotlib
 ```
@@ -30,6 +30,6 @@ This code is available under an MIT License, please see the `LICENSE` file for m
 This tool was developed to help my own understanding of tool geometry and therefore may contain mistakes. I would gladly welcome any advice or contributions to this software.
 
 # Future Work
-- A better defined coordinate system, perhaps formalising transformations from Machine > Holder > Insert > Cutting edge. 
+- A better defined coordinate system, perhaps formalizing transformations from Machine > Holder > Insert > Cutting edge. 
 - Import rake/inclination/major cut geometry from actual tools/holders (likely Sandvik).
 - More investigation into Merchant-style modelling, especially for force.
